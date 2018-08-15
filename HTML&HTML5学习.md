@@ -440,3 +440,19 @@ function drop(ev){
 | open | 当通往服务器的连接被打开 |
 | onmessage | 当接收到消息 |
 | onerror | 当错误发生 |	
+超链接标签：
+`<a href="http://www.baidu.com">百度</a>`
+**当不注明http://时，默认查看本地路径**
+com:国际域名
+cn：中国域名
+`<a href="http:www.baidu.com" target="_blank">`
+target标签表示在窗口中打开链接的方式，有以下几种值：
+
+| 名称 | 形式 |
+|:--|:--|
+| _blank | 在新窗口中打开 |
+| _parent | 在父窗口中打开 |
+| _self | 在当前窗口打开（默认） |
+| _top | 顶级窗口 |
+| framename | 窗口名称 |
+`<pre>` 格式化输出标签
